@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Setup_minor</string>
+    <string name="Setup">Setup</string>
+    <string name="SETUP" />
+    <string name="tomato">tomato</string>
+    <string name="todo">todo</string>
+    <string name="Crop_Type">Crop_Type</string>
+    <string name="country_prompt">Choose a country</string>
+    <string-array name="country_arrays">
+        <item>Delhi</item>
+        <item>Uttar Pradesh</item>
+        <item>Haryana</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+    </string-array>
+</resources>
