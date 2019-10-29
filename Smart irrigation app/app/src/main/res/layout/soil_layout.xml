@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_soil_view"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@drawable/alluvialsoil"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/soil_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/image_soil_view"
+        android:text="alluvialsoil"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/image_soil_view" />
+</RelativeLayout>
